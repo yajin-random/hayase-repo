@@ -1,0 +1,24 @@
+{
+  "name": "My Anime Extensions",
+  "version": 1,
+  "extensions": [
+    {
+      "name": "Nyaa",
+      "id": "nyaa",
+      "version": "0.0.1",
+      "description": "Nyaa torrent provider",
+      "url": "https://raw.githubusercontent.com/keiyoushi/extensions/main/nyaa.zip",
+      "language": "en",
+      "type": "torrent"
+    },
+    {
+      "name": "TokyoTosho",
+      "id": "tokyotosho",
+      "version": "0.0.1",
+      "description": "TokyoTosho torrent provider",
+      "url": "https://raw.githubusercontent.com/keiyoushi/extensions/main/tokyotosho.zip",
+      "language": "en",
+      "type": "torrent"
+    }
+  ]
+}
