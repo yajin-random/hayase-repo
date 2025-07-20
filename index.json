@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Nyaa",
+    "id": "nyaa",
+    "version": "0.0.1",
+    "type": "torrent",
+    "icon": "https://nyaa.si/static/favicon.png",
+    "update": "gh:yajin-random/hayase-repo",
+    "code": "gh:yajin-random/hayase-repo/nyaa"
+  },
+  {
+    "name": "TokyoTosho",
+    "id": "tokyotosho",
+    "version": "0.0.1",
+    "type": "torrent",
+    "icon": "https://www.tokyotosho.info/favicon.ico",
+    "update": "gh:yajin-random/hayase-repo",
+    "code": "gh:yajin-random/hayase-repo/tokyotosho"
+  }
+]
