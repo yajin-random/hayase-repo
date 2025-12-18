@@ -1,28 +1,61 @@
 [
   {
+    "name": "Seadex",
+    "id": "seadex",
+    "version": "0.0.4",
+    "type": "torrent",
+    "accuracy": "high",
+    "ratio": 0,
+    "media": "sub",
+    "languages": ["US"],
+    "icon": "https://releases.moe/favicon.png",
+    "update": "https://raw.githubusercontent.com/yajin-random/hayase-repo/main/index.json",
+    "code": "https://raw.githubusercontent.com/yajin-random/hayase-repo/main/seadex.js"
+  },
+  {
+    "name": "AnimeTosho",
+    "id": "animetosho",
+    "version": "0.0.9",
+    "type": "torrent",
+    "accuracy": "high",
+    "ratio": 0,
+    "media": "sub",
+    "languages": ["US"],
+    "icon": "https://animetosho.org/inc/favicon.ico",
+    "update": "https://raw.githubusercontent.com/yajin-random/hayase-repo/main/index.json",
+    "code": "https://raw.githubusercontent.com/yajin-random/hayase-repo/main/animetosho.js"
+  },
+  {
+    "name": "AnimeTosho NZB",
+    "id": "animetosho-nzb",
+    "version": "0.0.5",
+    "type": "nzb",
+    "accuracy": "high",
+    "ratio": 0,
+    "media": "sub",
+    "languages": ["US"],
+    "icon": "https://animetosho.org/inc/favicon.ico",
+    "update": "https://raw.githubusercontent.com/yajin-random/hayase-repo/main/index.json",
+    "code": "https://raw.githubusercontent.com/yajin-random/hayase-repo/main/animetosho-nzb.js",
+    "options": {
+      "domain": { "type": "string", "description": "Provider Domain", "default": "news.example.com" },
+      "port": { "type": "number", "description": "Provider Port", "default": 119 },
+      "username": { "type": "string", "description": "Provider Username", "default": "mail@example.com" },
+      "password": { "type": "string", "description": "Provider Password", "default": "password" },
+      "poolSize": { "type": "number", "description": "Connection Pool Size", "default": 5 }
+    }
+  },
+  {
     "name": "Nyaa",
     "id": "nyaa",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "type": "torrent",
     "accuracy": "high",
     "ratio": 0,
     "media": "sub",
     "languages": ["US"],
     "icon": "https://nyaa.si/static/favicon.png",
-    "update": "gh:yajin-random/hayase-repo",
-    "code": "gh:yajin-random/hayase-repo/nyaa"
-  },
-  {
-    "name": "TokyoTosho",
-    "id": "tokyotosho",
-    "version": "0.0.1",
-    "type": "torrent",
-    "accuracy": "high",
-    "ratio": 0,
-    "media": "sub",
-    "languages": ["US"],
-    "icon": "https://www.tokyotosho.info/favicon.ico",
-    "update": "gh:yajin-random/hayase-repo",
-    "code": "gh:yajin-random/hayase-repo/tokyotosho"
+    "update": "https://raw.githubusercontent.com/yajin-random/hayase-repo/main/index.json",
+    "code": "https://raw.githubusercontent.com/yajin-random/hayase-repo/main/nyaa.js"
   }
 ]
