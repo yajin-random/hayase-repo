@@ -1,4 +1,4 @@
-import AbstractSource from './abstract.js'
+import AbstractSource from 'https://raw.githubusercontent.com/yajin-random/hayase-repo/main/abstract.js'
 
 export default new class Nyaa extends AbstractSource {
   url = 'https://nyaa.si'
