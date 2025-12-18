@@ -1,7 +1,6 @@
-import AbstractSource from './abstract.js'
+import AbstractSource from 'https://raw.githubusercontent.com/yajin-random/hayase-repo/main/abstract.js'
 
 export default new class AnimeToshoNZB extends AbstractSource {
-  // Using the AnimeTosho API which is Web Worker / CORS friendly
   url = 'https://animetosho.org/api/search'
 
   async search({ titles }) {

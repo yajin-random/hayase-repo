@@ -1,4 +1,4 @@
-import AbstractSource from './abstract.js'
+import AbstractSource from 'https://raw.githubusercontent.com/yajin-random/hayase-repo/main/abstract.js'
 
 export default new class Seadex extends AbstractSource {
   url = 'https://releases.moe/api/v1/entries'
